@@ -3,11 +3,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'fa-another',
   template: `
-    <p>
-      another works!
-    </p>
+    <article>
+      <ng-content>
+      </ng-content>
+      <p>Inside another component</p>
+    </article>
   `,
-  styles: [
+  styles: [`
+    article {
+      border: 1px solid black;
+    }
+  `
   ]
 })
 export class AnotherComponent {
