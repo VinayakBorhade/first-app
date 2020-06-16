@@ -1,1 +1,1 @@
-sudo ng serve --open
+ng serve --open
