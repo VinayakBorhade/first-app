@@ -11,4 +11,8 @@ export class DatabindingComponent {
   onTest(){
     return true;
   }
+
+  onClicked(value: string){
+    alert(value);
+  }
 }
